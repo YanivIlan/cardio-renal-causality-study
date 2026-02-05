@@ -1,0 +1,11 @@
+Best Model: Logistic Regression
+Best parameters: {'C': 1.0732543007157114, 'penalty': 'l1'}
+Training F1-score: 0.9772
+Test F1-score: 0.9703
+Confusion Matrix:
+[[28  2]
+ [ 1 49]]
+Accuracy: 0.9625
+Precision: 0.9608
+Recall: 0.9800
+F1-score: 0.9703

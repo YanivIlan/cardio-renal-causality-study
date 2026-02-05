@@ -1,0 +1,104 @@
+Hypothesis 1: Most people with heart disease have CKD (proportion > 0.5)
+Null Hypothesis: The proportion of people with heart disease who have CKD is <= 0.5
+Proportion: 0.8000
+Z-test - Z-statistic: 8.8741, P-value: 3.5e-19, Corrected P-value: 7.0e-19
+Binomial test - P-value: 2.1e-13, Corrected P-value: 4.2e-13
+Conclusion: Reject null (proportion > 0.5) (Z-test, corrected)
+Hypothesis 2: Most people with CKD do not have heart disease (proportion > 0.5)
+Null Hypothesis: The proportion of people with CKD who do not have heart disease is <= 0.5
+Proportion: 0.5927
+Z-test - Z-statistic: 3.1297, P-value: 0.0009, Corrected P-value: 0.0017
+Binomial test - P-value: 0.0013, Corrected P-value: 0.0025
+Conclusion: Reject null (proportion > 0.5) (Z-test, corrected)
+
+Population 1 (Heart Disease + CKD):
+Size: 112
+
+Feature Combination Proportions:
+old men: 0.5000
+young men: 0.2946
+old women: 0.1964
+young women: 0.0089
+men with high BP: 0.2946
+women with high BP: 0.1161
+old with high BP: 0.3304
+young with high BP: 0.0804
+
+Dominant Combination Test (One-Sample Proportion):
+Most frequent combination: old men (Proportion: 0.5000)
+Null Hypothesis: The proportion of 'old men' in Population 1 (Heart Disease + CKD) is <= 0.5
+Z-test - P-value: 0.5000
+Characterization: mostly older, mostly men, with low/normal blood pressure
+
+Population 2 (Only CKD):
+Size: 163
+
+Feature Combination Proportions:
+old men: 0.1902
+young men: 0.3681
+old women: 0.2086
+young women: 0.2331
+men with high BP: 0.1595
+women with high BP: 0.1166
+old with high BP: 0.1840
+young with high BP: 0.0920
+
+Dominant Combination Test (One-Sample Proportion):
+Most frequent combination: young men (Proportion: 0.3681)
+Null Hypothesis: The proportion of 'young men' in Population 2 (Only CKD) is <= 0.5
+Z-test - P-value: 0.9998
+Characterization: mostly younger, mostly men, with low/normal blood pressure
+
+Population 3 (Only Heart Disease):
+Size: 28
+
+Feature Combination Proportions:
+old men: 0.6071
+young men: 0.3214
+old women: 0.0357
+young women: 0.0357
+men with high BP: 0.2857
+women with high BP: 0.0357
+old with high BP: 0.2143
+young with high BP: 0.1071
+
+Dominant Combination Test (One-Sample Proportion):
+Most frequent combination: old men (Proportion: 0.6071)
+Null Hypothesis: The proportion of 'old men' in Population 3 (Only Heart Disease) is <= 0.5
+Z-test - P-value: 0.1228
+Characterization: mostly older, mostly men, with low/normal blood pressure
+
+Population 4 (Neither):
+Size: 0
+No individuals in this population
+
+Corrected P-values for Population Tests (Bonferroni): ['1.0000', '1.0000', '0.3685']
+
+Chi-squared Tests Between Populations:
+
+Chi-squared test for age_binary:
+Pop 1 vs Pop 2: Chi2=22.3870, P-value=2.2e-06
+Pop 1 vs Pop 3: Chi2=0.1015, P-value=0.7500
+Pop 1 vs Pop 4: Skipped (empty population)
+Pop 2 vs Pop 3: Chi2=4.8429, P-value=0.0278
+Pop 2 vs Pop 4: Skipped (empty population)
+Pop 3 vs Pop 4: Skipped (empty population)
+Corrected P-values (Bonferroni): ['6.7e-06', '1.0000', '0.0833']
+
+Chi-squared test for sex:
+Pop 1 vs Pop 2: Chi2=15.3732, P-value=8.8e-05
+Pop 1 vs Pop 3: Chi2=1.9022, P-value=0.1678
+Pop 1 vs Pop 4: Skipped (empty population)
+Pop 2 vs Pop 3: Chi2=12.2891, P-value=0.0005
+Pop 2 vs Pop 4: Skipped (empty population)
+Pop 3 vs Pop 4: Skipped (empty population)
+Corrected P-values (Bonferroni): ['0.0003', '0.5035', '0.0014']
+
+Chi-squared test for Blood Pressure_binary:
+Pop 1 vs Pop 2: Chi2=4.8443, P-value=0.0277
+Pop 1 vs Pop 3: Chi2=0.4211, P-value=0.5164
+Pop 1 vs Pop 4: Skipped (empty population)
+Pop 2 vs Pop 3: Chi2=0.0703, P-value=0.7909
+Pop 2 vs Pop 4: Skipped (empty population)
+Pop 3 vs Pop 4: Skipped (empty population)
+Corrected P-values (Bonferroni): ['0.0832', '1.0000', '1.0000']

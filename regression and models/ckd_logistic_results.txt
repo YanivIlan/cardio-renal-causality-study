@@ -1,0 +1,7 @@
+CKD Logistic Regression Results:
+Training Accuracy: 0.9685
+Test Accuracy: 0.9625
+Training F1 Score: 0.9742
+Test F1 Score: 0.9714
+Training Error (Log Loss): 0.1380
+Test Error (Log Loss): 0.0881

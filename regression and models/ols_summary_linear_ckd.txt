@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Packed Cell Volume   R-squared:                       0.733
+Model:                            OLS   Adj. R-squared:                  0.731
+Method:                 Least Squares   F-statistic:                     286.6
+Date:                Thu, 24 Jul 2025   Prob (F-statistic):           1.97e-89
+Time:                        16:53:07   Log-Likelihood:                -901.29
+No. Observations:                 317   AIC:                             1811.
+Df Residuals:                     313   BIC:                             1826.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         39.2650      0.235    167.200      0.000      38.803      39.727
+x1            -0.4470      0.239     -1.871      0.062      -0.917       0.023
+x2             5.1973      0.322     16.141      0.000       4.564       5.831
+x3             2.0839      0.323      6.456      0.000       1.449       2.719
+==============================================================================
+Omnibus:                       20.136   Durbin-Watson:                   1.865
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.985
+Skew:                           0.399   Prob(JB):                     4.17e-08
+Kurtosis:                       4.391   Cond. No.                         2.35
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

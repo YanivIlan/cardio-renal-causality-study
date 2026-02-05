@@ -1,0 +1,31 @@
+Shapiro-Wilk Test for Normality (CKD RBC): p-value = 1.8e-16
+Interpretation: Not normal (p < 0.05 indicates non-normality)
+Shapiro-Wilk Test for Normality (Non-CKD RBC): p-value = 2.2e-05
+Interpretation: Not normal (p < 0.05 indicates non-normality)
+Chi-Square Test for Independence: p-value = 1.1e-43
+Interpretation: Dependent (p < 0.05 indicates RBC bins and CKD status are dependent)
+Note: Chi-square test performed despite non-normality; results should be interpreted cautiously as normality is typically assumed for continuous data binning
+Levene's Test for Equal Variances: p-value = 0.9204
+Interpretation: Equal variances (p < 0.05 indicates unequal variances)
+Kolmogorov-Smirnov Test: p-value = 2.4e-42
+Interpretation: Different distributions (p < 0.05 indicates different distributions)
+Anderson-Darling Test (Two-Sample): p-value = 0.0e+00
+Interpretation: Different distributions (p < 0.05 indicates different distributions)
+T-Test (Two-Sided): p-value = 5.7e-36
+Interpretation: Different means (p < 0.05 indicates different means, assumes normality and equal variances)
+Welch's T-Test (Two-Sided): p-value = 1.4e-38
+Interpretation: Different means (p < 0.05 indicates different means, assumes normality)
+Mann-Whitney U Test (Two-Sided): p-value = 9.1e-35
+Interpretation: Different medians (p < 0.05 indicates different medians, non-parametric)
+Permutation Test (Two-Sided): p-value = 0.0e+00
+Interpretation: Different means (p < 0.05 indicates different means, non-parametric)
+Wilcoxon Signed-Rank Test: Skipped (requires paired data, not applicable for independent CKD and non-CKD samples)
+Interpretation: Test not suitable for this data
+T-Test (One-Sided, Non-CKD > CKD): p-value = 2.9e-36
+Interpretation: Non-CKD mean > CKD (p < 0.05 indicates Non-CKD mean is greater)
+Welch's T-Test (One-Sided, Non-CKD > CKD): p-value = 7.0e-39
+Interpretation: Non-CKD mean > CKD (p < 0.05 indicates Non-CKD mean is greater)
+Mann-Whitney U Test (One-Sided, Non-CKD > CKD): p-value = 4.5e-35
+Interpretation: Non-CKD median > CKD (p < 0.05 indicates Non-CKD median is greater)
+Permutation Test (One-Sided, Non-CKD > CKD): p-value = 0.0e+00
+Interpretation: Non-CKD mean > CKD (p < 0.05 indicates Non-CKD mean is greater)
