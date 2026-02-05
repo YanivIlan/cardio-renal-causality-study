@@ -1,0 +1,17 @@
+,Group,Count,Prevalence,Mean Num,Chi2,P-value,Significance
+0,Old Males,203,0.808,1.729,196.608,0.000,Significant
+1,Old Females,19,0.211,0.474,13.460,0.000,Significant
+2,High Cholesterol,359,0.532,0.914,354.995,0.000,Significant
+3,High FBS,138,0.681,1.348,133.434,0.000,Significant
+4,Typical Angina,46,0.435,0.717,42.021,0.000,Significant
+5,Asymptomatic,496,0.790,1.444,489.984,0.000,Significant
+6,Old Males with High Cholesterol,72,0.819,1.778,65.400,0.000,Significant
+7,Young Males with High FBS,67,0.627,1.090,62.793,0.000,Significant
+8,Females with Asymptomatic CP,70,0.557,0.957,66.006,0.000,Significant
+9,Males with Typical Angina and High Chol,14,0.643,0.786,9.983,0.002,Significant
+10,High Chol with Exercise Angina,142,0.831,1.401,134.969,0.000,Significant
+11,Old Patients with High FBS,58,0.776,1.724,52.392,0.000,Significant
+12,LV Hypertrophy,188,0.564,1.165,183.956,0.000,Significant
+13,Flat Slope with High Chol,256,0.590,0.961,251.883,0.000,Significant
+14,High CA (≥1 vessel),128,0.750,1.648,122.722,0.000,Significant
+15,Reversible Defect Thal,192,0.802,1.615,185.752,0.000,Significant

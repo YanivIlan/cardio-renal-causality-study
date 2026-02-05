@@ -1,0 +1,23 @@
+,Group,Count,CKD Prevalence,Mean Creatinine,Mean Hemoglobin,Chi2,P-value,Significance
+0,Older Patients (≥50),240,0.738,3.604,12.075,234.862,0.000,Significant
+1,Hypertensive (BP≥140),2,1.000,3.850,8.700,NaN,NaN,N/A
+2,High Creatinine (≥1.2),249,0.859,4.324,11.429,240.791,0.000,Significant
+3,Low Hemoglobin (<12),146,1.000,4.965,9.681,NaN,NaN,N/A
+4,High Glucose (≥200),71,1.000,3.999,11.020,NaN,NaN,N/A
+5,High Urea (≥40),224,0.754,4.225,11.622,218.634,0.000,Significant
+6,Low Specific Gravity (≤1.010),90,1.000,4.264,10.859,NaN,NaN,N/A
+7,High Albumin (≥3),67,1.000,4.667,10.485,NaN,NaN,N/A
+8,Abnormal RBC,47,1.000,5.087,10.447,NaN,NaN,N/A
+9,Abnormal Pus Cells,75,1.000,4.879,10.229,NaN,NaN,N/A
+10,Pus Cell Clumps Present,41,1.000,3.954,10.349,NaN,NaN,N/A
+11,Bacteria Present,22,1.000,4.255,10.232,NaN,NaN,N/A
+12,Hypertension Present,146,1.000,5.109,10.469,NaN,NaN,N/A
+13,Diabetes Mellitus,132,1.000,4.707,10.703,NaN,NaN,N/A
+14,Poor Appetite,82,1.000,4.792,10.451,NaN,NaN,N/A
+15,Pedal Edema,75,1.000,5.098,10.397,NaN,NaN,N/A
+16,Anemia,60,1.000,6.162,8.943,NaN,NaN,N/A
+17,Older with High Creatinine,185,0.903,4.434,11.272,173.790,0.000,Significant
+18,Hypertensive with Diabetes,102,1.000,4.962,10.451,NaN,NaN,N/A
+19,Low Hemoglobin with Pedal Edema,52,1.000,6.055,9.356,NaN,NaN,N/A
+20,High Albumin with Proteinuria,21,1.000,4.195,9.705,NaN,NaN,N/A
+21,Diabetic with High Creatinine,121,1.000,5.052,10.531,NaN,NaN,N/A
