@@ -1,8 +1,8 @@
 # Statistical-Theory
 
 **Final Project in Statistical Theory**  
-Authors: *Itamar & Yaniv*  
-GitHub: [https://github.com/Itamarzer/Statistical-Theory](https://github.com/Itamarzer/Statistical-Theory)
+Authors: *Yaniv Ilan and Itamar Zernitsky*  
+GitHub: [https://github.com/YanivIlan/Statistical-Theory](https://github.com/YanivIlan/Statistical-Theory)
 
 ---
 
